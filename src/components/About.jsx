@@ -9,7 +9,7 @@ export default function About() {
   return (
     <section id="about" className="relative overflow-hidden bg-ivory py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="grid grid-cols-1 items-start gap-16 lg:grid-cols-2">
+        <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
           <div className="relative mx-auto w-full max-w-md lg:max-w-none">
             <Reveal>
               <PortraitFrame variant="about" className="paper-shadow-lg" />
