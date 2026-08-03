@@ -11,7 +11,7 @@ export default function Experience() {
         <SectionHeading
           eyebrow="Experience"
           title="A practice built across audit, academia and research."
-          description="A working history spanning statutory audit, corporate compliance, teaching, and published research."
+          description="A working history spanning statutory audit, corporate compliance, and published research."
         />
 
         <div className="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-[1.15fr_0.85fr]">

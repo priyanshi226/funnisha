@@ -9,8 +9,8 @@ export default function About() {
   return (
     <section id="about" className="relative overflow-hidden bg-ivory py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
-          <div className="relative mx-auto w-full max-w-md lg:max-w-none">
+        <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
+          <div className="relative order-2 mx-auto w-full max-w-md lg:order-1 lg:max-w-none">
             <Reveal>
               <PortraitFrame variant="about" className="paper-shadow-lg" />
             </Reveal>
@@ -36,7 +36,7 @@ export default function About() {
             ))}
           </div>
 
-          <div className="flex flex-col gap-5">
+          <div className="order-1 flex flex-col gap-5 lg:order-2">
             <Reveal>
               <Pill tone="olive">About</Pill>
             </Reveal>

@@ -35,7 +35,7 @@ export default function Hero() {
             transition={{ duration: 0.9, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
             className="text-5xl leading-[1.02] text-ink sm:text-6xl md:text-7xl"
           >
-            Finance.
+            Research.
             <br />
             <span className="italic text-olive">Compliance.</span>
             <br />

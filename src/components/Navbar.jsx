@@ -21,7 +21,7 @@ export default function Navbar() {
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-        className={`mx-auto flex max-w-6xl items-center justify-between rounded-full border px-5 py-2.5 transition-all duration-500 ${
+        className={`relative z-50 mx-auto flex max-w-6xl items-center justify-between rounded-full border px-5 py-2.5 transition-all duration-500 ${
           scrolled
             ? "border-ink/10 bg-ivory/90 shadow-[0_10px_30px_-12px_rgba(42,33,25,0.25)] backdrop-blur-md"
             : "border-transparent bg-transparent"
@@ -66,12 +66,27 @@ export default function Navbar() {
 
       <AnimatePresence>
         {open && (
+          <motion.button
+            type="button"
+            aria-label="Close menu"
+            onClick={() => setOpen(false)}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.3 }}
+            className="fixed inset-0 z-40 cursor-default bg-ink/25 backdrop-blur-[2px] lg:hidden"
+          />
+        )}
+      </AnimatePresence>
+
+      <AnimatePresence>
+        {open && (
           <motion.div
             initial={{ opacity: 0, y: -12, height: 0 }}
             animate={{ opacity: 1, y: 0, height: "auto" }}
             exit={{ opacity: 0, y: -12, height: 0 }}
             transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-            className="mx-auto mt-3 max-w-6xl overflow-hidden rounded-3xl border border-ink/10 bg-ivory/95 p-6 shadow-xl backdrop-blur-md lg:hidden"
+            className="relative z-50 mx-auto mt-3 max-w-6xl overflow-hidden rounded-3xl border border-ink/10 bg-ivory/95 p-6 shadow-xl backdrop-blur-md lg:hidden"
           >
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (

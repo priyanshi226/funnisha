@@ -6,24 +6,25 @@ export const profile = {
   phoneHref: "+919990588540",
   email: "funnishagarg@gmail.com",
   location: "Bhiwani, Haryana, India",
-  tagline: "Finance. Compliance. Growth.",
+  tagline: "Research. Compliance. Growth.",
   heroSub:
-    "Chartered accountancy and corporate law practice for founders, institutions and investors, built on two decades of audit, taxation and regulatory work, and research published across peer-reviewed journals.",
+    "Helping businesses stay compliant and researchers create meaningful impact, through research-driven solutions and corporate compliance services.",
 };
 
 export const heroBadges = [
+  "Corporate Compliance",
   "GST",
   "Income Tax",
-  "Audit",
-  "Startups",
-  "ROC",
-  "Compliance",
+  "TDS",
+  "ROC Filings",
+  "Company Incorporation",
+  "Research Paper Writing",
 ];
 
 export const aboutParagraphs = [
   "I'm Dr. CA CS Funnisha Garg, a Chartered Accountant, Company Secretary, and PhD in Commerce, working across corporate finance, taxation, insolvency (IBC), NCLT matters, corporate law, international taxation, transfer pricing, and mergers & acquisitions.",
   "My work sits at the intersection of legal provision, financial analysis, and business strategy, translating dense regulation into decisions founders, investors, and professionals can actually act on.",
-  "Day to day, that means statutory and internal audits, company and LLP incorporation, ROC and regulatory compliance, internal controls, and financial management, alongside teaching MBA students Financial Derivatives, Project Finance, Portfolio Management, and Strategic Management as visiting faculty.",
+  "Day to day, that means statutory and internal audits, company and LLP incorporation, ROC and regulatory compliance, internal controls, and financial management.",
   "My academic grounding: International Taxation and Transfer Pricing, an MA in Business Law (M&A, Investment & Institutional Finance), and a PhD on economic reforms in India's FMCG sector, feeds directly into practice, with research published in Scopus-indexed and UGC CARE journals.",
 ];
 
@@ -36,7 +37,7 @@ export const aboutFloatingLabels = [
 export const qualifications = [
   { title: "CA Final (Both Groups)", org: "ICAI", year: "2019" },
   { title: "CS Professional Programme", org: "ICSI", year: "2018" },
-  { title: "PhD in Commerce", org: "Om Sterling Global University", year: "2023" },
+  { title: "PhD in Commerce", org: "Om Sterling Global University", year: "2025" },
   { title: "MA in Business Law: M&A, Investment & Institutional Finance", org: "NUJS, West Bengal", year: "2019" },
   { title: "International Taxation & Transfer Pricing", org: "NUJS, West Bengal", year: "2018" },
   { title: "B.Com (Hons.)", org: "Keshav Mahavidyalaya, University of Delhi", year: "2013" },
@@ -44,58 +45,125 @@ export const qualifications = [
 
 export const services = [
   {
-    icon: "Receipt",
-    title: "GST Registration & Filing",
-    description:
-      "End-to-end GST registration, return filing and reconciliation, kept clean and audit-ready.",
-  },
-  {
-    icon: "FileText",
-    title: "Income Tax Filing",
-    description:
-      "Individual and corporate ITRs, tax planning, and representation in assessments and appeals.",
-  },
-  {
-    icon: "Building2",
-    title: "Company & LLP Incorporation",
-    description:
-      "Drafting incorporation documents, regulatory coordination, and post-incorporation compliance.",
-  },
-  {
-    icon: "ShieldCheck",
-    title: "Audit & Assurance",
-    description:
-      "Statutory, internal and management audits: evidence-tested, principle-led, thoroughly documented.",
+    icon: "PenTool",
+    title: "Research Paper Writing",
+    items: [
+      "Research Paper Writing",
+      "Journal Selection",
+      "Literature Review",
+      "Research Methodology",
+      "Data Analysis (Excel)",
+      "Formatting & Referencing",
+      "Plagiarism Reduction",
+      "Thesis & Dissertation Support",
+    ],
   },
   {
     icon: "ClipboardList",
-    title: "ROC Compliance",
-    description:
-      "Annual filings including AOC-4 and MGT-7, and ongoing Registrar of Companies compliance.",
+    title: "Corporate Compliance",
+    items: [
+      "ROC Annual Filing",
+      "AOC-4",
+      "MGT-7",
+      "DIR Forms",
+      "Secretarial Compliance",
+      "Company Law Matters",
+      "Board & Shareholder Resolutions",
+    ],
   },
   {
     icon: "Calculator",
-    title: "Accounting & Bookkeeping",
-    description:
-      "Accurate books on Tally and Busy, reconciled monthly so your numbers are always board-ready.",
-  },
-  {
-    icon: "Landmark",
-    title: "Business & Financial Consulting",
-    description:
-      "Internal controls, budgetary mechanisms, and procurement processes built for operational efficiency.",
+    title: "GST Services",
+    items: [
+      "GST Registration",
+      "GST Return Filing",
+      "GST Reconciliation",
+      "GST Notices & Replies",
+      "GST Advisory",
+      "Composition to Regular Conversion",
+    ],
   },
   {
     icon: "TrendingUp",
-    title: "Tax Planning & Strategy",
-    description:
-      "Forward-looking structuring across income tax, GST and corporate tax to keep more of what you earn.",
+    title: "Income Tax & TDS",
+    items: [
+      "Income Tax Return Filing",
+      "TDS Return Filing",
+      "Tax Planning",
+      "Tax Advisory",
+      "Assessment Support",
+      "Notice Handling",
+    ],
   },
   {
-    icon: "Rocket",
-    title: "Startup Advisory",
-    description:
-      "From entity structuring to compliance calendars, practical guidance for founders building fast.",
+    icon: "Building2",
+    title: "Business Registration",
+    items: [
+      "Private Limited Company",
+      "LLP",
+      "Partnership Firm",
+      "OPC",
+      "MSME Registration",
+      "PAN & TAN",
+      "Startup Registration",
+    ],
+  },
+  {
+    icon: "BookOpen",
+    title: "Accounting & Bookkeeping",
+    items: [
+      "Bookkeeping on Tally",
+      "Monthly Reconciliation",
+      "Financial Statements",
+      "MIS Reporting",
+      "Accounts Management",
+    ],
+  },
+  {
+    icon: "Percent",
+    title: "Tax Planning & Strategy",
+    items: [
+      "Income Tax Planning",
+      "GST Planning",
+      "Corporate Tax Planning",
+      "Tax Optimization",
+      "Advisory & Structuring",
+    ],
+  },
+  {
+    icon: "Users",
+    title: "Corporate Advisory",
+    items: [
+      "Internal Controls",
+      "Compliance Audit Support",
+      "Policies & SOPs",
+      "Due Diligence Support",
+      "Business Structuring",
+      "Budgetary Mechanism",
+    ],
+  },
+  {
+    icon: "Landmark",
+    title: "Other Professional Services",
+    items: [
+      "Digital Signature (DSC)",
+      "DIN Services",
+      "Trademark & Copyright",
+      "Legal Documentation",
+      "NCLT Documentation",
+      "FEMA Advisory",
+    ],
+  },
+  {
+    icon: "GraduationCap",
+    title: "Academic & Research Consulting",
+    items: [
+      "Research Guidance",
+      "Project Report Support",
+      "Data Analysis (Excel)",
+      "Proposal Writing",
+      "Conference Paper Support",
+    ],
   },
 ];
 
@@ -166,46 +234,61 @@ export const testimonials = [
     name: "Educational Trust",
     role: "Institutional client",
   },
+  {
+    quote:
+      "GST reconciliation used to eat up our whole month. Now it's handled quietly in the background and the notices have stopped altogether.",
+    name: "Retail Chain",
+    role: "Retail sector client",
+  },
+  {
+    quote:
+      "She guided my research methodology and data analysis end to end. My paper was accepted on the first submission.",
+    name: "PhD Scholar",
+    role: "Academic research client",
+  },
+  {
+    quote:
+      "As a freelancer, tax planning always felt like guesswork. Now I know exactly what I owe and why, well before the deadline.",
+    name: "Independent Consultant",
+    role: "Freelance professional",
+  },
+  {
+    quote:
+      "From trust registration to annual filings, every regulatory box was ticked without us having to chase for updates.",
+    name: "Charitable Trust",
+    role: "NGO client",
+  },
 ];
 
 export const faqs = [
   {
-    question: "What services do you offer for new businesses?",
+    question: "Do you provide research paper writing support?",
     answer:
-      "Company and LLP incorporation, drafting of incorporation documents, coordination with regulatory authorities, and advisory on post-incorporation compliance, plus GST registration and initial accounting setup.",
+      "Yes: journal selection, literature review, research methodology, data analysis, formatting and referencing, plagiarism reduction, and thesis and dissertation support.",
   },
   {
-    question: "Do you handle both individual and corporate tax filing?",
+    question: "Do you handle GST returns and notices?",
     answer:
-      "Yes: individual income tax returns, corporate ITRs, TDS/TCS returns, and representation in income tax assessments and appeals.",
+      "Yes: GST registration, return filing, reconciliation, advisory, and responses to GST notices, including conversion from composition to regular scheme.",
   },
   {
-    question: "What does your audit process cover?",
+    question: "Can you assist in ROC compliance and filings?",
     answer:
-      "Statutory, internal and management audits: examining evidence behind Annual Accounts figures, testing internal controls, and preparing working papers and supporting documentation for findings.",
+      "Yes: annual return filings such as AOC-4 and MGT-7, DIR forms, secretarial compliance, and ongoing Registrar of Companies compliance.",
   },
   {
-    question: "Can you manage ongoing ROC and annual compliance?",
+    question: "Do you file Income Tax and TDS returns?",
     answer:
-      "Yes: annual return filings such as AOC-4 and MGT-7, and continuous monitoring of ROC and regulatory deadlines so nothing is missed.",
+      "Yes: individual and corporate income tax returns, TDS return filing, tax planning and advisory, and support through assessments and notices.",
   },
   {
-    question: "Do you work with startups and small businesses, or only larger firms?",
+    question: "Do you help in company and LLP incorporation?",
     answer:
-      "Both. Practice ranges from educational trusts and manufacturing firms to early-stage startups and freelancers. Advisory is scaled to what each stage actually needs.",
+      "Yes: incorporation of Private Limited Companies, LLPs, Partnership Firms and OPCs, plus MSME registration, PAN & TAN, and startup registration.",
   },
 ];
 
 export const experience = [
-  {
-    role: "Visiting Faculty",
-    org: "Chaudhary Bansi Lal University (CBLU)",
-    period: "Ongoing",
-    points: [
-      "Teaching MBA students Financial Derivatives, Project Finance, Portfolio Management, and Strategic Management.",
-      "Handling company and LLP incorporations, including drafting and regulatory coordination.",
-    ],
-  },
   {
     role: "Accounts Consultant",
     org: "Vaish Trust, Vaish College, Vaish Schools & Adarsh Mahila Mahavidyalaya College, Bhiwani",

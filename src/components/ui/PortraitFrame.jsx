@@ -1,11 +1,14 @@
 import profileImg from "../../assets/profile.jpeg";
+import aboutImg from "../../assets/about.jpg";
+
+const images = { hero: profileImg, about: aboutImg };
 
 export default function PortraitFrame({ className = "", variant = "hero" }) {
   const ring = variant === "hero";
   return (
     <div className={`relative aspect-[4/5] w-full overflow-hidden rounded-[2.5rem] ${className}`}>
       <img
-        src={profileImg}
+        src={images[variant] || profileImg}
         alt="Dr. CA CS Funnisha Garg"
         className="absolute inset-0 h-full w-full object-cover object-top"
       />

@@ -1,28 +1,30 @@
 import {
-  Receipt,
-  FileText,
+  PenTool,
   Building2,
-  ShieldCheck,
   ClipboardList,
   Calculator,
   Landmark,
   TrendingUp,
-  Rocket,
+  BookOpen,
+  Percent,
+  Users,
+  GraduationCap,
 } from "lucide-react";
 import { services } from "../data/content";
 import Reveal from "./ui/Reveal";
 import SectionHeading from "./ui/SectionHeading";
 
 const icons = {
-  Receipt,
-  FileText,
+  PenTool,
   Building2,
-  ShieldCheck,
   ClipboardList,
   Calculator,
   Landmark,
   TrendingUp,
-  Rocket,
+  BookOpen,
+  Percent,
+  Users,
+  GraduationCap,
 };
 
 export default function Services() {
@@ -45,9 +47,14 @@ export default function Services() {
                     {Icon && <Icon size={22} />}
                   </div>
                   <h3 className="relative mt-6 font-display text-2xl text-ink">{service.title}</h3>
-                  <p className="relative mt-3 text-sm leading-relaxed text-ink-soft">
-                    {service.description}
-                  </p>
+                  <ul className="relative mt-4 flex flex-col gap-2">
+                    {service.items.map((item) => (
+                      <li key={item} className="flex gap-2.5 text-sm leading-relaxed text-ink-soft">
+                        <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-terracotta" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </Reveal>
             );
