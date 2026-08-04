@@ -25,7 +25,7 @@ export default function Hero() {
             transition={{ duration: 0.7 }}
           >
             <Pill tone="cream">
-              <Sparkles size={13} className="text-terracotta" /> Dr. CA CS · Working since 2013
+              <Sparkles size={13} className="text-terracotta" /> Dr. CA CS · AIR-40, ICAI
             </Pill>
           </motion.div>
 
