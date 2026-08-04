@@ -11,9 +11,7 @@ export default function About() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="relative order-2 mx-auto w-full max-w-md lg:order-1 lg:max-w-none">
-            <Reveal>
-              <PortraitFrame variant="about" className="paper-shadow-lg" />
-            </Reveal>
+            <PortraitFrame variant="about" className="paper-shadow-lg" />
 
             {aboutFloatingLabels.map((item, i) => (
               <motion.div
