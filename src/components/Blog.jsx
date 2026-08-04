@@ -10,7 +10,7 @@ export default function Blog() {
         <SectionHeading
           eyebrow="Insights"
           title="Recent thinking on tax, compliance and finance."
-          description="Notes and explainers drawn from active practice, written for founders and finance teams who want the real picture, not the jargon."
+          description="Notes and explainers drawn from real client work, written for founders and finance teams who want the real picture, not the jargon."
         />
 
         <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">

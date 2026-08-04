@@ -25,7 +25,7 @@ export default function Hero() {
             transition={{ duration: 0.7 }}
           >
             <Pill tone="cream">
-              <Sparkles size={13} className="text-terracotta" /> Dr. CA CS · Practicing since 2013
+              <Sparkles size={13} className="text-terracotta" /> Dr. CA CS · Working since 2013
             </Pill>
           </motion.div>
 
@@ -73,7 +73,7 @@ export default function Hero() {
           >
             <div className="flex flex-col">
               <span className="font-display text-2xl text-olive">6+</span>
-              <span>Years in practice</span>
+              <span>Years of experience</span>
             </div>
             <div className="h-8 w-px bg-ink/10" />
             <div className="flex flex-col">

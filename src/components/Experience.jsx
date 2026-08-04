@@ -10,7 +10,7 @@ export default function Experience() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading
           eyebrow="Experience"
-          title="A practice built across audit, academia and research."
+          title="A career built across audit, academia and research."
           description="A working history spanning statutory audit, corporate compliance, and published research."
         />
 

@@ -25,12 +25,12 @@ export const aboutParagraphs = [
   "I'm Dr. CA CS Funnisha Garg, a Chartered Accountant, Company Secretary, and PhD in Commerce, working across corporate finance, taxation, insolvency (IBC), NCLT matters, corporate law, international taxation, transfer pricing, and mergers & acquisitions.",
   "My work sits at the intersection of legal provision, financial analysis, and business strategy, translating dense regulation into decisions founders, investors, and professionals can actually act on.",
   "Day to day, that means statutory and internal audits, company and LLP incorporation, ROC and regulatory compliance, internal controls, and financial management.",
-  "My academic grounding: International Taxation and Transfer Pricing, an MA in Business Law (M&A, Investment & Institutional Finance), and a PhD on economic reforms in India's FMCG sector, feeds directly into practice, with research published in Scopus-indexed and UGC CARE journals.",
+  "My academic grounding: International Taxation and Transfer Pricing, an MA in Business Law (M&A, Investment & Institutional Finance), and a PhD on economic reforms in India's FMCG sector, feeds directly into my work, with research published in Scopus-indexed and UGC CARE journals.",
 ];
 
 export const aboutFloatingLabels = [
   { label: "AIR-40", sub: "CA Final, ICAI" },
-  { label: "6+ yrs", sub: "In practice since 2013" },
+  { label: "6+ yrs", sub: "Working since 2013" },
   { label: "CA · CS · PhD", sub: "Triple credentialed" },
 ];
 
@@ -168,7 +168,7 @@ export const services = [
 ];
 
 export const stats = [
-  { value: "6+", label: "Years in Practice" },
+  { value: "6+", label: "Years of Experience" },
   { value: "10+", label: "Publications & Papers" },
   { value: "AIR-40", label: "CA Final, ICAI" },
   { value: "100%", label: "Transparent Guidance" },
@@ -382,7 +382,7 @@ export const blogPosts = [
   {
     title: "Reading the IBC: A Founder's Guide to Corporate Distress Resolution",
     excerpt:
-      "How the Insolvency and Bankruptcy Code actually works in practice, and what it means for a business under financial pressure.",
+      "How the Insolvency and Bankruptcy Code actually works in the real world, and what it means for a business under financial pressure.",
     date: "Coming soon",
     readTime: "7 min read",
     category: "Corporate Law",

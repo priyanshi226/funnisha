@@ -14,7 +14,7 @@ export default function WhyChooseMe() {
         <div className="flex flex-col items-start justify-between gap-8 lg:flex-row lg:items-end">
           <SectionHeading
             eyebrow="Why Choose Me"
-            title="Numbers that reflect the way I practice."
+            title="Numbers that reflect the way I work."
             tone="cream"
             dark
           />
