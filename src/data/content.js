@@ -343,18 +343,27 @@ export const publications = [
   {
     title: "Evaluating the Impact of GST on the FMCG Sector: India vs. USA (2013–2022)",
     venue: "Journal for ReAttach Therapy and Developmental Diversities (Scopus Indexed), Dec 2023",
+    pdf: "/research/gst-impact-fmcg-sector.pdf",
   },
   {
     title: "Assessing the Impact of Demonetization on the FMCG Sector: India vs. Philippines (2013–2021)",
     venue: "Leadership, Education, Personality: An Interdisciplinary Journal (UGC CARE), Oct 2023",
+    pdf: "/research/demonetization-impact-fmcg-sector.pdf",
   },
   {
     title: "Decarbonizing India's Energy Future: Carbon Credits, Market Mechanisms & Digital MRV",
     venue: "Asian Journal of Management and Commerce",
+    pdf: "/research/decarbonizing-indias-energy-future.pdf",
   },
   {
     title: "Reforming Corporate Distress Resolution in India: A Financial & Legal Analysis of the IBC, 2016",
     venue: "International Journal of Financial Management and Economics",
+    pdf: "/research/corporate-distress-resolution-ibc.pdf",
+  },
+  {
+    title: "The Impact of Economic Reforms on Indian Stock Market",
+    venue: "Analect: Research Inputs in Sustainability, Technology, Entrepreneurship and Management — Book Chapter 4, Arihant Books, 2024 (ISBN 978-81-19956-61-6)",
+    pdf: "/research/economic-reforms-indian-stock-market.pdf",
   },
   {
     title: "Blockchain-enabled Peer-to-Peer Energy Trading: A Global Framework",
@@ -758,6 +767,282 @@ export const blogPosts = [
       { type: "paragraph", text: "Aarav has no idea what lies ahead. But in the next episode, you'll learn the exact FAR framework used by Big 4 consultants to analyse multinational companies—step by step, with practical examples, consulting techniques, and real-world insights that every aspiring international tax professional should master." },
     ],
   },
+  {
+    slug: "far-analysis-inside-big-4-consulting-room",
+    title: "The ₹500 Crore Question: Inside a Big 4 Consulting Room — Performing Your First FAR Analysis",
+    series: "Global Tax Mastery · Episode 4",
+    category: "Global Tax Mastery",
+    excerpt:
+      "\"A consultant doesn't begin by asking where profits are reported. They begin by asking why those profits exist in the first place.\"",
+    date: "August 2026",
+    readTime: "9 min read",
+    body: [
+      { type: "quote", text: "A consultant doesn't begin by asking where profits are reported. They begin by asking why those profits exist in the first place." },
+      { type: "paragraph", text: "It was nearly 8:00 p.m. and the International Tax floor was unusually quiet. Most associates had already left for the day, but Aarav was still staring at the same file that had been lying on his desk for almost three hours." },
+      { type: "paragraph", text: "The title was simple: GlobalTech Solutions – FAR Analysis." },
+      { type: "paragraph", text: "He smiled to himself. \"This should be straightforward,\" he thought. After all, he had already learned what Functions, Assets and Risks (FAR) meant. He expected to fill in a few tables, write a short note and submit the assignment." },
+      { type: "paragraph", text: "Just then, his manager walked by. \"Finished?\" he asked. Aarav hesitated. \"I know what FAR stands for,\" he replied, \"but I don't know where to begin.\" The manager smiled. \"That's because FAR isn't a checklist. It's an investigation.\"" },
+      { type: "paragraph", text: "He pulled a chair beside Aarav and opened GlobalTech's organisation chart. \"Forget the tax law for the next thirty minutes,\" he said. \"I want you to think like a business detective.\"" },
+
+      { type: "heading", text: "The Client's Problem" },
+      { type: "paragraph", text: "GlobalTech operated in three countries." },
+      { type: "list", items: [
+        "GlobalTech USA owned the software patents, global brand, and customer contracts.",
+        "GlobalTech India employed more than 700 software engineers responsible for developing and testing new products.",
+        "GlobalTech Singapore managed regional distribution across Asia.",
+      ] },
+      { type: "paragraph", text: "The group had earned record profits. Now, two tax authorities were asking the same question: who actually deserves those profits? India argued that the engineers creating the software generated significant value. The US argued that without its intellectual property, strategic decisions, and investment in research, there would be no product to sell." },
+      { type: "paragraph", text: "Aarav looked confused. \"If India has 700 engineers and the US has only 80 employees, shouldn't India receive most of the profit?\" The manager leaned back and smiled. \"That's exactly why we perform a FAR Analysis instead of counting employees.\"" },
+
+      { type: "heading", text: "What Every Big 4 Consultant Does Before Opening Excel" },
+      { type: "paragraph", text: "Aarav reached for his laptop, expecting to start preparing a spreadsheet. The manager stopped him immediately. \"Close Excel.\" Aarav looked surprised. \"But don't we prepare a FAR matrix first?\" The manager smiled. \"No. We prepare questions first.\"" },
+      { type: "paragraph", text: "He pulled out a yellow notepad and began writing." },
+      { type: "list", items: [
+        "Who actually decides the product roadmap?",
+        "Who approves the annual R&D budget?",
+        "Who can stop a product launch?",
+        "Who signs contracts with global customers?",
+        "Who bears the financial loss if the product fails?",
+      ] },
+      { type: "paragraph", text: "Then he looked at Aarav. \"Notice something? None of these questions mention tax. That's because FAR Analysis isn't a tax exercise. It's a business investigation.\"" },
+      { type: "quote", text: "The quality of a FAR Analysis depends less on the answers you write and more on the questions you ask." },
+
+      { type: "heading", text: "Step One: Follow the Value, Not the Headcount" },
+      { type: "paragraph", text: "The manager drew three columns on the whiteboard." },
+
+      { type: "heading", text: "Functions – Who Does the Real Work?" },
+      { type: "list", items: [
+        "Who develops the software?",
+        "Who negotiates with customers?",
+        "Who approves product strategy?",
+        "Who decides pricing?",
+        "Who controls research?",
+      ] },
+
+      { type: "heading", text: "Assets – Who Owns What Matters Most?" },
+      { type: "list", items: [
+        "Who owns the patents?",
+        "Who owns the software code?",
+        "Who owns the brand?",
+        "Who owns customer relationships?",
+      ] },
+
+      { type: "heading", text: "Risks – Who Bears the Consequences?" },
+      { type: "list", items: [
+        "Who funds new product development?",
+        "Who absorbs losses if the product fails?",
+        "Who bears market risk?",
+        "Who guarantees customer performance?",
+      ] },
+      { type: "paragraph", text: "\"Every answer,\" the manager explained, \"must be supported by evidence, not assumptions. That's why Big 4 consultants don't rely only on contracts. They interview business teams, review emails, analyse board minutes, study organisation charts, and understand how decisions are actually made.\"" },
+
+      { type: "heading", text: "The Seven Sources of Evidence Every Big 4 Consultant Uses" },
+      { type: "paragraph", text: "The manager opened another file. \"This,\" he said, \"is where many young professionals make their biggest mistake. They believe FAR Analysis comes from one document. It doesn't.\" Experienced consultants compare information from multiple sources before reaching a conclusion. A typical investigation includes:" },
+      { type: "list", items: [
+        "Annual Reports",
+        "Organisation Charts",
+        "Intercompany Agreements",
+        "Board Meeting Minutes",
+        "Product Approval Emails",
+        "Patent Filings",
+        "Recruitment Advertisements and LinkedIn Hiring",
+      ] },
+      { type: "paragraph", text: "\"If all seven sources tell the same story,\" the manager explained, \"our confidence increases. But if they contradict each other...\" He smiled. \"That's where the real consulting begins.\" Aarav finally understood why experienced consultants spend more time asking questions than reading legislation." },
+
+      { type: "heading", text: "The Biggest Mistake Young Professionals Make" },
+      { type: "paragraph", text: "The manager handed Aarav two documents. The first was the intercompany agreement. It stated that the US parent controlled product development. The second document contained meeting minutes from the engineering team. Almost every major product decision had been proposed by engineers in India before being approved by the US headquarters." },
+      { type: "paragraph", text: "\"Do you see the difference?\" the manager asked." },
+      { type: "list", items: [
+        "The contract tells us the legal arrangement.",
+        "The business tells us the commercial reality.",
+      ] },
+
+      { type: "heading", text: "The LinkedIn Test" },
+      { type: "paragraph", text: "The manager opened LinkedIn. Aarav looked confused. \"We're preparing a transfer pricing report,\" he said. \"Why are we on LinkedIn?\" The manager searched for GlobalTech India. Recent vacancies appeared:" },
+      { type: "list", items: [
+        "AI Research Director",
+        "Global Product Strategy Lead",
+        "Chief Software Architect",
+        "Innovation Programme Manager",
+      ] },
+      { type: "paragraph", text: "The manager asked, \"If India is merely a routine software development centre, why is it recruiting strategic leadership roles?\" Aarav smiled. He finally understood. Sometimes the strongest evidence isn't hidden inside tax files. It's available publicly." },
+      { type: "list", items: [
+        "Consultants simply know where to look.",
+        "A good consultant analyses both.",
+        "A great consultant identifies where they don't match.",
+      ] },
+
+      { type: "heading", text: "The Email That Changed the Entire Case" },
+      { type: "paragraph", text: "Just as Aarav and the team believed their investigation was complete, an unexpected email arrived from the Legal Department: Subject: Approval for Global Product Launch." },
+      { type: "paragraph", text: "The intercompany agreement clearly stated that the US parent company controlled product development and strategic decision-making. On paper, everything appeared straightforward. However, the email revealed a completely different picture." },
+      { type: "paragraph", text: "Before every major software release, engineers in India prepared the technical recommendations, evaluated commercial feasibility and finalised product specifications. Only after receiving India's technical approval did the US headquarters issue the formal sign-off." },
+      { type: "paragraph", text: "The manager looked at Aarav and asked, \"Do you see the difference? The contract reflects legal ownership. The email reflects operational reality. Both are important. But when they tell different stories, consultants don't choose one over the other. They investigate further.\"" },
+      { type: "paragraph", text: "At that moment, Aarav realised that a single operational email could influence the outcome of an entire transfer pricing analysis. In international taxation, evidence often speaks louder than documentation." },
+
+      { type: "heading", text: "Five Red Flags That Experienced Consultants Never Ignore" },
+      { type: "paragraph", text: "The manager opened another notebook and drew five warning symbols across the page. \"Every experienced consultant develops the habit of identifying red flags before reaching conclusions.\" He explained that these warning signs often indicate that the legal documentation may not accurately reflect commercial reality." },
+      { type: "list", items: [
+        "Contracts and Business Reality Do Not Match — the agreement states that one entity controls pricing, but employees reveal that commercial negotiations are conducted by another entity.",
+        "Routine Entity or Innovation Centre? — the company describes India as a routine service provider, yet Indian teams develop new technology, improve products, and solve critical technical challenges every quarter.",
+        "Decisions Without Documentation — major strategic decisions are taken through informal video conferences, but none of those discussions are supported by board resolutions or governance records.",
+        "Ownership Without Investment — one entity legally owns the patents, while another entity bears most of the research and development expenditure and employs the innovation teams.",
+        "Profit Allocation Without Commercial Logic — one company earns significantly higher profits than the others, but there is no commercial explanation supported by functions performed, assets employed, and risks assumed.",
+      ] },
+      { type: "paragraph", text: "The manager closed the notebook. \"Remember, Aarav, every red flag is not evidence of an error. It is simply an invitation to investigate further.\" That single statement explained why experienced consultants rarely accept documentation at face value." },
+
+      { type: "heading", text: "The Walk-the-Business Principle" },
+      { type: "paragraph", text: "As they packed their laptops, Aarav assumed the assignment had finally come to an end. Instead, the manager picked up his car keys and said, \"Tomorrow morning, we're visiting the engineering centre.\"" },
+      { type: "paragraph", text: "Aarav looked surprised. \"We've already reviewed the contracts, analysed the emails, and examined the organisation charts. What more is left?\"" },
+      { type: "paragraph", text: "The manager smiled. \"Businesses don't create value inside legal agreements. They create value inside laboratories. Inside factories. Inside software development centres. Inside customer meetings.\" He paused for a moment before adding, \"The best consultants don't merely read about businesses. They walk through them.\"" },
+      { type: "paragraph", text: "Only by observing how decisions were made, who influenced them, and where innovation actually occurred could a consultant confidently conclude where value was created. That principle remained with Aarav throughout his consulting career." },
+
+      { type: "heading", text: "The Lesson That Changed Aarav's Thinking" },
+      { type: "paragraph", text: "Before leaving the office, the manager walked back to the whiteboard and wrote one final sentence: \"Profits follow value, not assumptions.\"" },
+      { type: "paragraph", text: "Aarav looked at the sentence for several moments. Until that evening, he believed FAR Analysis was simply another transfer pricing requirement. Now he understood that it was something much more significant. It was the framework that helped consultants answer one of the most fundamental questions in international taxation: where economic value is genuinely created." },
+      { type: "paragraph", text: "Once that question is answered, transfer pricing, Permanent Establishment, withholding tax, treaty interpretation and profit attribution become logical consequences rather than isolated legal exercises. For the first time since joining the firm, Aarav stopped thinking like an accountant who applied tax provisions. He began thinking like a consultant who first understood the business before interpreting the law." },
+
+      { type: "heading", text: "Partner's Notebook" },
+      { type: "paragraph", text: "Before preparing your next transfer pricing report or tax opinion, pause and ask yourself:" },
+      { type: "list", items: [
+        "Am I relying only on contracts?",
+        "Have I understood how the business actually operates?",
+        "Who performs the economically significant functions?",
+        "Who owns and controls the valuable assets?",
+        "Who bears the key commercial and financial risks?",
+        "Can I support every conclusion with objective evidence?",
+      ] },
+      { type: "paragraph", text: "Remember, the strongest tax opinions are not built on assumptions. They are built on evidence." },
+
+      { type: "heading", text: "Coming Up Next" },
+      { type: "paragraph", text: "Episode 5 — DEMPE: Beyond Legal Ownership. Aarav believed he finally understood how multinational companies created value. He was wrong." },
+      { type: "paragraph", text: "In the next episode, he discovers DEMPE, the OECD framework that transformed the way tax authorities analyse intellectual property. He learns why owning a patent is not the same as creating value, and why the real owner of an intangible asset is often very different from the entity whose name appears on the legal documents." },
+    ],
+  },
+  {
+    slug: "dempe-who-really-owns-a-patent",
+    title: "Who Really Owns a Patent? How DEMPE Changed the Way the World Thinks About Intellectual Property",
+    series: "Global Tax Mastery · Episode 5",
+    category: "Global Tax Mastery",
+    excerpt:
+      "\"The patent was worth ₹8,000 crore... yet the owner was not necessarily the real economic owner.\"",
+    date: "August 2026",
+    readTime: "10 min read",
+    body: [
+      { type: "quote", text: "The patent was worth ₹8,000 crore... yet the owner was not necessarily the real economic owner." },
+      { type: "paragraph", text: "Episode 4 ended with Aarav believing he had finally understood how multinational companies created value. He had learnt that a good consultant never begins with tax provisions. Instead, the investigation begins by understanding the business and its functions, assets, risks and, most importantly, how value is actually created." },
+      { type: "paragraph", text: "The next morning, Aarav walked into the conference room carrying his completed FAR Analysis. For the first time since joining the International Tax team, he felt genuinely confident. The report contained detailed interviews, organisational charts, board minutes, intercompany agreements and operational observations. Every conclusion was supported by evidence rather than assumptions." },
+      { type: "paragraph", text: "The manager reviewed the report slowly before closing the file. \"Excellent work,\" he said. Aarav smiled with quiet satisfaction. Then, without saying another word, the manager placed a patent certificate on the table. \"Tell me, Aarav, who owns this patent?\"" },
+      { type: "paragraph", text: "\"The US parent company,\" Aarav replied immediately. \"Correct,\" said the manager. \"Now answer another question. Who created the value?\" The room fell silent." },
+      { type: "paragraph", text: "\"Most young professionals begin by identifying the legal owner of an intangible,\" the manager explained. \"That is an important starting point, but it is rarely the end of a transfer pricing analysis.\"" },
+      { type: "paragraph", text: "\"When analysing valuable intangibles, consultants also examine how value is created, who performs the economically significant activities, who exercises control over significant decisions, and whether the contractual arrangements are consistent with the actual conduct of the parties. Only after understanding those facts can a well-supported transfer pricing conclusion be reached.\"" },
+      { type: "paragraph", text: "Twenty years ago, many transfer pricing analyses placed considerable emphasis on legal ownership and contractual arrangements. As multinational businesses became increasingly dependent on valuable intangibles, transfer pricing analyses increasingly focused not only on legal ownership but also on economically significant activities, decision-making, governance and objective evidence." },
+      { type: "paragraph", text: "\"That,\" the manager smiled, \"is why DEMPE became one of the most influential concepts in modern transfer pricing.\"" },
+      { type: "paragraph", text: "The manager reopened the GlobalTech file." },
+      { type: "list", items: [
+        "GlobalTech USA legally owned the patents.",
+        "GlobalTech India employed hundreds of engineers developing and improving the software.",
+        "GlobalTech Singapore negotiated regional licensing across Asia.",
+      ] },
+      { type: "paragraph", text: "\"If the patent is registered in one country, research happens in another and commercialisation occurs in a third, how should the returns associated with the intangible be analysed?\" Aarav realised the answer was not as simple as reading the patent certificate." },
+      { type: "paragraph", text: "The manager picked up a recent international tax publication. \"Every month tax authorities, courts and policymakers refine their approach. Different countries have different laws, but they repeatedly ask the same question: where is value genuinely created?\" He explained that consultants must understand who performs economically significant activities, who exercises decision-making authority, and whether contractual arrangements are consistent with the actual conduct of the parties." },
+
+      { type: "heading", text: "Legal Ownership → Business Reality → Economic Evidence" },
+      { type: "paragraph", text: "The manager drew three boxes on the whiteboard: Legal Ownership, Business Reality, Economic Evidence. \"Young professionals stop at the first box,\" he said. \"Experienced consultants continue until the evidence supports the conclusion.\" Aarav finally understood why the previous day had been spent gathering evidence rather than simply reading agreements." },
+
+      { type: "heading", text: "The CEO Test" },
+      { type: "paragraph", text: "The manager proposed a test. \"Imagine the CEO asks only three questions:\"" },
+      { type: "list", items: [
+        "Who approved the ₹500 crore R&D budget?",
+        "Who could stop the project?",
+        "Who would bear the consequences if the project failed?",
+      ] },
+      { type: "paragraph", text: "\"If you cannot answer these questions with evidence, your analysis is incomplete.\" The manager paused. \"These questions do not determine the transfer pricing outcome by themselves. They simply help identify where economically significant decisions are made and where further evidence should be examined.\"" },
+      { type: "paragraph", text: "Aarav replied, \"So this is not really about patents.\" The manager smiled. \"It never was. It is about understanding who performs and controls the economically significant activities associated with valuable intangibles, and how those activities align with the contractual arrangements and the actual conduct of the parties.\"" },
+      { type: "paragraph", text: "Finally, the manager wrote five letters on the board: D E M P E. \"Tomorrow,\" he said, \"I will explain why these five letters changed the way international tax professionals analyse valuable intangibles around the world.\" Aarav looked once again at the patent certificate. For the first time, he stopped reading the owner's name and started asking a different question: who really created the value?" },
+      { type: "quote", text: "The strongest transfer pricing opinion is not built on the best contract. It is built on the best evidence." },
+      { type: "paragraph", text: "Aarav spent the entire night thinking about the five letters written on the whiteboard: D.E.M.P.E. The next morning, he reached the office early. For the first time since joining the International Tax team, he was less interested in tax provisions and more interested in understanding how experienced consultants investigated valuable intangibles." },
+      { type: "paragraph", text: "The manager entered the conference room carrying only a notebook. \"Today,\" he smiled, \"I am not going to teach you DEMPE. I am going to teach you how consultants think.\"" },
+
+      { type: "heading", text: "The Monday Morning Test" },
+      { type: "paragraph", text: "\"Forget the patent. Forget the agreements. Imagine it is Monday morning inside GlobalTech.\"" },
+      { type: "list", items: [
+        "Who attends the innovation meeting?",
+        "Who approves another ₹500 crore of R&D?",
+        "Who decides whether Project Falcon continues?",
+        "Who authorises patent filing?",
+        "Who approves global licensing?",
+      ] },
+      { type: "paragraph", text: "The manager explained that one business meeting often reveals more than hundreds of pages of legal documentation, because it reflects how decisions are actually made." },
+
+      { type: "heading", text: "DEMPE Is Not a Checklist" },
+      { type: "paragraph", text: "The manager wrote five questions instead of five definitions." },
+      { type: "list", items: [
+        "Develop – Who created something that did not exist yesterday?",
+        "Enhance – Who continuously improved its value?",
+        "Maintain – Who ensured it remained valuable?",
+        "Protect – Who protected it legally and commercially?",
+        "Exploit – Who transformed innovation into commercial income?",
+      ] },
+      { type: "paragraph", text: "He reminded Aarav that DEMPE begins with understanding the business before considering the allocation of returns." },
+
+      { type: "heading", text: "Performance versus Control" },
+      { type: "paragraph", text: "Aarav assumed that the country performing most development should automatically receive the highest return. The manager cautioned him not to reach conclusions too quickly. Depending on the facts and circumstances, the entity performing technical work and the entity exercising control over economically significant decisions may or may not be the same. Consultants therefore analyse both performance and control together with contractual arrangements, actual conduct and evidence." },
+
+      { type: "heading", text: "The Evidence Pyramid" },
+      { type: "list", items: [
+        "Highest value: board minutes, R&D committee decisions, budget approvals and governance records.",
+        "Supporting operational evidence: technical emails, project records, engineering presentations.",
+        "Supporting background information: organisation charts, employment contracts, recruitment advertisements and publicly available information such as annual reports, corporate websites and professional profiles such as LinkedIn.",
+      ] },
+      { type: "quote", text: "Great consultants do not count documents. They weigh evidence." },
+
+      { type: "heading", text: "The Consultant's Golden Rule" },
+      { type: "paragraph", text: "The manager looked at Aarav. \"Never begin your investigation by asking who owns the patent.\" He paused. \"Begin by asking who created the economic value and performed and controlled the economically significant activities associated with the intangible. The answer to that question often determines which documents you examine next.\"" },
+
+      { type: "heading", text: "Partner's Case Diary" },
+      { type: "paragraph", text: "The manager closed another file. \"Many significant transfer pricing disputes teach one important lesson. The legal agreements explain what the parties intended. The evidence explains what actually happened.\"" },
+      { type: "paragraph", text: "He continued, \"Courts and tax authorities often examine contractual arrangements together with actual conduct, governance records, commercially significant decisions and contemporaneous documentation.\" He paused. \"Every case depends on its own facts. But consistency between documentation and business reality always strengthens a transfer pricing position.\"" },
+
+      { type: "heading", text: "Three Myths" },
+      { type: "list", items: [
+        "Myth: Patent ownership automatically means economic entitlement. Reality: legal ownership is an important starting point, but the allocation of returns generally requires consideration of contractual arrangements, actual conduct, economically significant activities and all relevant facts and circumstances.",
+        "Myth: More engineers automatically mean more profit. Reality: headcount alone does not determine economic entitlement.",
+        "Myth: Funding R&D alone guarantees residual returns. Reality: funding is important, but it is evaluated together with the overall functional and economic analysis.",
+      ] },
+      { type: "paragraph", text: "The overall analysis depends on the facts, contractual arrangements, actual conduct and economically significant functions." },
+
+      { type: "heading", text: "Five DEMPE Red Flags" },
+      { type: "list", items: [
+        "Patent owner has no meaningful R&D capability.",
+        "Engineers make strategic decisions while another entity claims all profits.",
+        "Contracts differ from business reality.",
+        "Governance records do not support decision-making.",
+        "Significant profits exist without corresponding commercial evidence.",
+        "The same executive appears to approve significant DEMPE decisions across multiple jurisdictions without supporting governance documentation.",
+      ] },
+      { type: "paragraph", text: "Red flags do not prove an error; they indicate where deeper investigation is required." },
+
+      { type: "heading", text: "Consultant's Notebook" },
+      { type: "list", items: [
+        "Who conceived the innovation?",
+        "Who approved the investment?",
+        "Who controlled key decisions?",
+        "Who accepted significant risks?",
+        "Who legally owned the intangible?",
+        "Who commercially exploited it?",
+        "What objective evidence supports every conclusion?",
+        "Who approved the patent filing strategy?",
+        "Who had authority to terminate the project?",
+      ] },
+      { type: "paragraph", text: "The manager ended the discussion with one final observation: never begin by asking only who owns the patent. Begin by asking who created, controlled and commercialised the value." },
+      { type: "paragraph", text: "The manager closed the file. \"Aarav... yesterday you believed the patent certificate contained the answer.\" He placed it beside the board minutes. \"Today, you know something different.\"" },
+      { type: "paragraph", text: "Legal ownership may be recorded on paper. Commercial reality is demonstrated through evidence. No single document tells the whole story. An international tax consultant must bring together contracts, governance, commercial decisions and objective evidence before reaching a supportable conclusion." },
+      { type: "paragraph", text: "Aarav looked at both documents. The patent certificate explained who held the legal rights. The board minutes helped explain who made the commercially significant decisions. For the first time, he realised that international taxation required him to understand both before reaching a conclusion." },
+
+      { type: "heading", text: "Coming Up Next" },
+      { type: "paragraph", text: "Episode 6: a seemingly ordinary email becomes one of the most significant pieces of evidence in the GlobalTech transfer pricing investigation." },
+    ],
+  },
 ];
 
 export const links = {
@@ -772,5 +1057,6 @@ export const navLinks = [
   { label: "Services", href: "#services" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "Insights", href: "#blog" },
+  { label: "Research", href: "#publications" },
   { label: "Contact", href: "#contact" },
 ];

@@ -55,7 +55,13 @@ export default function BlogPost() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [slug]);
+    if (post) {
+      document.title = `${post.title} | Funnisha Garg`;
+    }
+    return () => {
+      document.title = "Dr. CA CS Funnisha Garg: Chartered Accountant, Company Secretary & Corporate Finance Advisor";
+    };
+  }, [slug, post]);
 
   if (!post) {
     return <Navigate to="/" replace />;

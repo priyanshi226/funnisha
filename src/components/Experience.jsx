@@ -1,5 +1,5 @@
-import { Award, BookOpen, GraduationCap, ExternalLink } from "lucide-react";
-import { experience, certifications, publications, links } from "../data/content";
+import { Award, GraduationCap, ExternalLink } from "lucide-react";
+import { experience, certifications, links } from "../data/content";
 import Reveal from "./ui/Reveal";
 import SectionHeading from "./ui/SectionHeading";
 import { LinkedinGlyph } from "./ui/BrandIcons";
@@ -52,22 +52,6 @@ export default function Experience() {
                     <li key={cert} className="flex gap-2.5 text-sm leading-relaxed text-cream/90">
                       <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-mustard" />
                       {cert}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </Reveal>
-
-            <Reveal delay={0.08}>
-              <div className="paper-shadow rounded-3xl border border-ink/5 bg-ivory p-7">
-                <div className="flex items-center gap-2.5 text-sm font-medium uppercase tracking-wide text-ink-soft">
-                  <BookOpen size={16} /> Research & Publications
-                </div>
-                <ul className="mt-5 flex flex-col gap-4">
-                  {publications.map((pub) => (
-                    <li key={pub.title} className="border-l-2 border-terracotta/40 pl-4">
-                      <p className="text-sm font-medium leading-snug text-ink">{pub.title}</p>
-                      <p className="mt-1 text-xs text-ink-soft">{pub.venue}</p>
                     </li>
                   ))}
                 </ul>
