@@ -1,8 +1,22 @@
-import { Award, GraduationCap, ExternalLink } from "lucide-react";
-import { experience, certifications, links } from "../data/content";
+import {
+  Award,
+  GraduationCap,
+  ExternalLink,
+  HeartPulse,
+  ShoppingBag,
+  Factory,
+  Cpu,
+  Laptop,
+  Rocket,
+  HandHeart,
+  Briefcase,
+} from "lucide-react";
+import { experience, certifications, industries, links } from "../data/content";
 import Reveal from "./ui/Reveal";
 import SectionHeading from "./ui/SectionHeading";
 import { LinkedinGlyph } from "./ui/BrandIcons";
+
+const industryIcons = [HeartPulse, ShoppingBag, Factory, Cpu, Laptop, Rocket, HandHeart, GraduationCap, Briefcase];
 
 export default function Experience() {
   return (
@@ -86,6 +100,29 @@ export default function Experience() {
                 </a>
               </div>
             </Reveal>
+          </div>
+        </div>
+
+        <div className="mt-16 border-t border-ink/10 pt-12">
+          <Reveal>
+            <p className="text-sm font-medium uppercase tracking-wide text-ink-soft">
+              Industries Served
+            </p>
+          </Reveal>
+          <div className="mt-6 flex flex-wrap gap-3">
+            {industries.map((industry, i) => {
+              const Icon = industryIcons[i % industryIcons.length];
+              return (
+                <Reveal key={industry} delay={(i % 5) * 0.05}>
+                  <div className="paper-shadow flex items-center gap-2.5 rounded-full border border-ink/5 bg-ivory px-5 py-2.5">
+                    <span className="flex h-7 w-7 items-center justify-center rounded-full bg-terracotta/10 text-terracotta">
+                      <Icon size={14} />
+                    </span>
+                    <span className="text-sm font-medium text-ink">{industry}</span>
+                  </div>
+                </Reveal>
+              );
+            })}
           </div>
         </div>
       </div>

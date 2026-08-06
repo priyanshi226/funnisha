@@ -7,7 +7,6 @@ import Blog from "./components/Blog";
 import WhyChooseMe from "./components/WhyChooseMe";
 import Experience from "./components/Experience";
 import Publications from "./components/Publications";
-import Industries from "./components/Industries";
 import Process from "./components/Process";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
@@ -26,7 +25,6 @@ function App() {
         <WhyChooseMe />
         <Experience />
         <Publications />
-        <Industries />
         <Process />
         <FAQ />
         <Contact />

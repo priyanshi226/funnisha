@@ -12,14 +12,14 @@ export default function Process() {
           description="No ambiguity about what happens next, or when."
         />
 
-        <div className="relative mt-16">
+        <div className="relative mt-8 sm:mt-16">
           <div className="absolute left-6 top-0 hidden h-full w-px bg-ink/10 sm:block lg:left-1/2" />
 
-          <div className="flex flex-col gap-10 lg:gap-0">
+          <div className="flex flex-col gap-3 sm:gap-10 lg:gap-0">
             {process.map((item, i) => (
               <Reveal key={item.step} delay={i * 0.08}>
                 <div
-                  className={`relative flex flex-col gap-4 py-4 sm:flex-row sm:items-center lg:py-10 ${
+                  className={`relative flex flex-col gap-4 py-1 sm:flex-row sm:items-center sm:py-4 lg:py-10 ${
                     i % 2 === 1 ? "lg:flex-row-reverse" : ""
                   }`}
                 >
