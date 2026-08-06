@@ -30,7 +30,7 @@ export const aboutParagraphs = [
 
 export const aboutFloatingLabels = [
   { label: "AIR-40", sub: "CA Final, ICAI" },
-  { label: "6+ yrs", sub: "Working since 2013" },
+  { label: "6+ yrs", sub: "Working since 2020" },
   { label: "CA · CS · PhD", sub: "Triple credentialed" },
 ];
 
