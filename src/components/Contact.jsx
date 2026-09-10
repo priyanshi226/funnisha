@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Phone, Mail, MapPin, Send } from "lucide-react";
+import { Mail, MapPin, Send } from "lucide-react";
 import { profile, services } from "../data/content";
 import Reveal from "./ui/Reveal";
 import Pill from "./ui/Pill";
@@ -11,6 +11,28 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    const formData = new FormData(e.currentTarget);
+    const name = String(formData.get("name") || "").trim();
+    const phone = String(formData.get("phone") || "").trim();
+    const email = String(formData.get("email") || "").trim();
+    const service = String(formData.get("service") || "").trim();
+    const message = String(formData.get("message") || "").trim();
+    const subject = `Website enquiry from ${name || "a visitor"}`;
+    const body = [
+      "Hello Funnisha Garg,",
+      "",
+      `Name: ${name}`,
+      `Phone: ${phone}`,
+      `Email: ${email}`,
+      `Service: ${service}`,
+      "",
+      `Message: ${message}`,
+    ].join("\n");
+    const mailtoUrl = `mailto:${profile.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailtoUrl;
+
     setSubmitted(true);
   };
 
@@ -39,20 +61,6 @@ export default function Contact() {
           <div className="flex flex-col gap-5">
             <Reveal delay={0.2}>
               <a
-                href={`tel:${profile.phoneHref}`}
-                className="paper-shadow flex items-center gap-4 rounded-2xl border border-ink/5 bg-ivory px-6 py-4 transition-transform duration-300 hover:-translate-y-1"
-              >
-                <span className="flex h-11 w-11 items-center justify-center rounded-full bg-olive/10 text-olive">
-                  <Phone size={18} />
-                </span>
-                <div>
-                  <p className="text-xs uppercase tracking-wide text-ink-soft">Phone</p>
-                  <p className="font-medium text-ink">{profile.phone}</p>
-                </div>
-              </a>
-            </Reveal>
-            <Reveal delay={0.26}>
-              <a
                 href={`mailto:${profile.email}`}
                 className="paper-shadow flex items-center gap-4 rounded-2xl border border-ink/5 bg-ivory px-6 py-4 transition-transform duration-300 hover:-translate-y-1"
               >
@@ -65,7 +73,7 @@ export default function Contact() {
                 </div>
               </a>
             </Reveal>
-            <Reveal delay={0.32}>
+            <Reveal delay={0.26}>
               <div className="paper-shadow flex items-center gap-4 rounded-2xl border border-ink/5 bg-ivory px-6 py-4">
                 <span className="flex h-11 w-11 items-center justify-center rounded-full bg-olive/10 text-olive">
                   <MapPin size={18} />
@@ -93,43 +101,29 @@ export default function Contact() {
                 <span className="flex h-16 w-16 items-center justify-center rounded-full bg-olive/10 text-olive">
                   <Send size={26} />
                 </span>
-                <h3 className="font-display text-2xl text-ink">Message sent.</h3>
+                <h3 className="font-display text-2xl text-ink">Email draft opened.</h3>
                 <p className="max-w-xs text-sm text-ink-soft">
-                  Thank you for reaching out. I'll respond within one business day.
+                  Your message has been prepared for email. Please send it from your mail app, and
+                  I'll respond within one business day.
                 </p>
               </div>
             ) : (
               <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
                 <label className="flex flex-col gap-2 text-sm text-ink-soft">
                   Name
-                  <input
-                    required
-                    type="text"
-                    placeholder="Your full name"
-                    className="rounded-xl border border-ink/10 bg-cream px-4 py-3 text-ink outline-none transition-colors focus:border-olive"
-                  />
+                  <input name="name" required type="text" placeholder="Your full name" className="rounded-xl border border-ink/10 bg-cream px-4 py-3 text-ink outline-none transition-colors focus:border-olive" />
                 </label>
                 <label className="flex flex-col gap-2 text-sm text-ink-soft">
                   Phone
-                  <input
-                    required
-                    type="tel"
-                    placeholder="+91 00000 00000"
-                    className="rounded-xl border border-ink/10 bg-cream px-4 py-3 text-ink outline-none transition-colors focus:border-olive"
-                  />
+                  <input name="phone" required type="tel" placeholder="+91 00000 00000" className="rounded-xl border border-ink/10 bg-cream px-4 py-3 text-ink outline-none transition-colors focus:border-olive" />
                 </label>
                 <label className="flex flex-col gap-2 text-sm text-ink-soft sm:col-span-2">
                   Email
-                  <input
-                    required
-                    type="email"
-                    placeholder="you@email.com"
-                    className="rounded-xl border border-ink/10 bg-cream px-4 py-3 text-ink outline-none transition-colors focus:border-olive"
-                  />
+                  <input name="email" required type="email" placeholder="you@email.com" className="rounded-xl border border-ink/10 bg-cream px-4 py-3 text-ink outline-none transition-colors focus:border-olive" />
                 </label>
                 <label className="flex flex-col gap-2 text-sm text-ink-soft sm:col-span-2">
                   Service
-                  <select className="rounded-xl border border-ink/10 bg-cream px-4 py-3 text-ink outline-none transition-colors focus:border-olive">
+                  <select name="service" className="rounded-xl border border-ink/10 bg-cream px-4 py-3 text-ink outline-none transition-colors focus:border-olive">
                     {services.map((s) => (
                       <option key={s.title}>{s.title}</option>
                     ))}
@@ -139,6 +133,7 @@ export default function Contact() {
                 <label className="flex flex-col gap-2 text-sm text-ink-soft sm:col-span-2">
                   Message
                   <textarea
+                    name="message"
                     required
                     rows={4}
                     placeholder="Tell me a little about what you need help with..."
@@ -148,7 +143,7 @@ export default function Contact() {
 
                 <div className="sm:col-span-2">
                   <MagneticButton type="submit" className="w-full sm:w-auto">
-                    Let's Discuss Your Financial Goals
+                    Send via Email
                   </MagneticButton>
                 </div>
               </div>

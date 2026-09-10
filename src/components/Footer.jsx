@@ -30,9 +30,6 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col gap-3 text-sm text-cream/70">
-            <a href={`tel:${profile.phoneHref}`} className="transition-colors hover:text-cream">
-              {profile.phone}
-            </a>
             <a href={`mailto:${profile.email}`} className="transition-colors hover:text-cream">
               {profile.email}
             </a>
